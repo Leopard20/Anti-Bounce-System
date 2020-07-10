@@ -1,5 +1,7 @@
 params ["_veh"];
 
+if (!isNil "ABS_enableMod" && {!ABS_enableMod}) exitWith {};
+
 if !(_veh getVariable ["ABS_EHs_Added", false]) then {
 	/*
 	_EH = _veh addEventHandler ["EpeContactStart", {

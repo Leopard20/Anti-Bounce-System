@@ -19,7 +19,17 @@ class CfgFunctions {
 			class contact_end {};
 			class addEHs {};
 			class removeEHs {};
+			class manualUnflip {};
+			class manualUnflip_Hold {};
 		};
+	};
+};
+
+class Extended_PreInit_EventHandlers
+{
+	class AIO_AIMENU 
+	{
+		init = "call compile preProcessFileLineNumbers 'AntiBounceSystem\XEH_preInit.sqf'";
 	};
 };
 
