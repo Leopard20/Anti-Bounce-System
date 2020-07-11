@@ -17,6 +17,7 @@ class CfgFunctions {
 		{
 			file = "AntiBounceSystem\functions";
 			class contact_end {};
+			class contact {};
 			class addEHs {};
 			class removeEHs {};
 			class manualUnflip {};
