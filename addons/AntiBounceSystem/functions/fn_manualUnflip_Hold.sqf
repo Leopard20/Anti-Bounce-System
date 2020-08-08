@@ -23,7 +23,7 @@ if (!isNull _veh && { //in veh
 	
 	(getCenterOfMass _veh) params ["_x", "_y", "_z"];
 	
-	_force = 0.075*(1-_cos)*getMass _veh*(1 - 0.65*abs _yy);
+	_force = 0.07*(1-_cos)*getMass _veh*(1 - 0.65*abs _yy);
 	_veh addForce [_veh vectorModelToWorld [0,0,-_force], [_xx* abs _x1 + abs _yy * _x, _yy * abs _y1 + abs _xx* _y, _z]];
 };
 //}

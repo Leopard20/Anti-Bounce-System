@@ -27,5 +27,5 @@ if (_cos < cos ABS_minAngle && {
 
 	//t_points1 = [_veh modelToWorldWorld _p];
 	
-	_veh addForce [_veh vectorModelToWorld [0,0,-0.015*getMass _veh*(1-_cos)], _p];
+	_veh addForce [_veh vectorModelToWorld [0,0,-0.0225*getMass _veh*(1-_cos)], _p];
 };

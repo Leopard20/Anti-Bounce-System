@@ -10,7 +10,7 @@ if (!isNull _veh && { //in veh
 		}
 	}
 }) then {
-	_veh setVariable ["ABS_manualUnflip", CBA_missionTime + 1, true];
+	_veh setVariable ["ABS_manualUnflip", CBA_missionTime + 0.5, true];
 	
 	params ["_xx", "_yy"];
 	params ["_c1", "_c2"];
